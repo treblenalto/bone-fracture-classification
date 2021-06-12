@@ -1,0 +1,8 @@
+# Directories #
+FracturedImages/
+NormalImages/
+TestImages/
+
+# files
+*.zip
+*.pdf
