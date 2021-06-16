@@ -1,8 +1,8 @@
 # Directories #
-FracturedImages/
-NormalImages/
-TestImages/
+data/
+submission/
 
 # files
 *.zip
 *.docx
+*.pptx
