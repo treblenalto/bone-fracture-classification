@@ -3,6 +3,7 @@
 ## Overview
 
 Binary classification of bone CT images between normal/fractured bone using covolutional neural networks (CNN). A Total of 353 images (177 fractured, 176 normal) were used for training, with 20% as validation. All images were center-cropped to 400 x 400 dimension. Due to the small size of data, training images were augmented using random horizontal flip(p=0.5).<br>
+Variants of VGGNet, AlexNet, and ResNet were trained to classify the images. Out of the three, AlexNet achieved best validation performance, thus was selected as final model to predict test images<br>
 
 This was carried out as a course project for "Pattern Recognition and Machine Learning" taught by Prof. Taehoon Shin at Ewha Womans University. 
 
@@ -53,3 +54,10 @@ Bone Fracure Detection
 ├── report.pdf
 │   
 ```
+<!-- 
+**Todo**
+- refactor directory structure 
+  - code-train/test folder 나누기
+- test code 정리
+- test accuracy 여쭤보기 >> 추가
+>
