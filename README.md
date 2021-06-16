@@ -2,7 +2,7 @@
 
 ## Overview
 
-Binary classification of bone CT images between normal/fractured bone using covolutional neural networks (CNN). A Total of 353 images (177 fractured, 176 normal) were used for training, with 20% of each class used for validation. All images were center-cropped to 400 x 400 dimension. Due to the small size of data, training images were augmented using random horizontal flip(p=0.5).<br>
+Binary classification of bone CT images between normal/fractured bone using covolutional neural networks (CNN). A Total of 353 images (177 fractured, 176 normal) were used for training, with 20% as validation. All images were center-cropped to 400 x 400 dimension. Due to the small size of data, training images were augmented using random horizontal flip(p=0.5).<br>
 
 This was carried out as a course project for "Pattern Recognition and Machine Learning" taught by Prof. Taehoon Shin at Ewha Womans University. 
 
@@ -50,7 +50,6 @@ Bone Fracure Detection
 │   ├───ResNet26.ipynb
 │   └───ResNet16.ipynb
 │
-├── prediction.csv
 ├── report.pdf
 │   
 ```
