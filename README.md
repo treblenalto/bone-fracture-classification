@@ -3,7 +3,7 @@
 ## Overview
 
 Binary classification of bone CT images between normal/fractured bone using covolutional neural networks (CNN). A Total of 353 images (177 fractured, 176 normal) were used for training, with 20% as validation. All images were center-cropped to 400 x 400 dimension. Due to the small size of data, training images were augmented using random horizontal flip(p=0.5).<br>
-Variants of VGGNet, AlexNet, and ResNet were trained to classify the images. Out of the three, AlexNet achieved best validation performance, thus was selected as final model to predict test images<br>
+Variants of VGGNet, AlexNet, and ResNet were trained to classify the images. Out of the three, AlexNet achieved best validation performance, thus was selected as final model to predict test images.<br>
 
 This was carried out as a course project for "Pattern Recognition and Machine Learning" taught by Prof. Taehoon Shin at Ewha Womans University. 
 
@@ -25,20 +25,18 @@ This was carried out as a course project for "Pattern Recognition and Machine Le
 
 **Final Model**<br>
 
-Modified AlexNet with input size 400x400, Dropout(p=0.8), and L2 Regularization(lambda=1e-3)
+Modified AlexNet with input size 400x400, Dropout(p=0.8) trained with L2 Regularization(lambda=1e-3)
 ![block diagram](./img/diagram.png)
 
 All of the models were trained and tested via Pytorch framework. <br>
-No pretrained model was used for this project
+No pretrained model was used for this project.
 
 ## Results
-<!--[result](./img/result.png)-->
 <img width="700" alt="result" src="./img/result.png">
 
 | Accuracy | Loss |
 |:--------:|:----:|
 | ![acc](./img/accuracy.png) | ![loss](./img/loss.png) |
-
 
 ## Structure
 ```
@@ -47,8 +45,8 @@ Bone Fracure Detection
 ├── code
 │   ├───AlexNet.ipynb
 │   ├───AlexNet_Drop.ipynb
-│   ├───AlexNet_Drop_L2Reg(1e-4).ipynb
 │   ├───AlexNet_Drop_L2Reg(1e-3).ipynb
+│   ├───AlexNet_Drop_L2Reg(1e-4).ipynb
 │   ├───ResNet16.ipynb
 │   ├───ResNet26.ipynb
 │   ├───VGG9.ipynb
@@ -59,6 +57,6 @@ Bone Fracure Detection
 ```
 <!-- 
 **Todo**
-- test code 정리
+- test code 정리>> test.ipynb
 - test accuracy 여쭤보기 >> 추가
 >
