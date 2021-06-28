@@ -55,8 +55,3 @@ Bone Fracure Detection
 ├── report.pdf
 │   
 ```
-<!-- 
-**Todo**
-- test code 정리>> test.ipynb
-- test accuracy 여쭤보기 >> 추가
->
